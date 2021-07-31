@@ -1,0 +1,56 @@
+.filaunboton{
+display :flex;
+align-items :center;
+justify-content :center;
+height:33%;
+width:100%;
+}
+
+.filadosbotones{
+width:100%;
+height:33%;
+ align-items:center;
+ justify-content:space-between;
+ display:flex;
+
+}
+
+.botonarriba{
+    display:flex;
+     align-items:center;
+     justify-content:center ;
+      background-color:green;
+      width:33%;
+      height:100%;
+      border-radius:30px
+}
+
+.botonabajo{
+    display:flex; 
+    align-items:center;
+    justify-content:center ;
+     background-color:yellow;
+     width:33%;
+     height:100%;
+     border-radius:30px
+}
+
+.botonderecha{
+    display:flex;
+     align-items:center;
+     justify-content:center ;
+      background-color:blue;
+      width:33%;
+      height:100%;
+      border-radius:30px 
+}
+
+.botonizquierda{
+    display:flex;
+     align-items:center;
+     justify-content:center ;
+      background-color:red;
+      width:33%;
+      height:100%;
+      border-radius:30px
+}
