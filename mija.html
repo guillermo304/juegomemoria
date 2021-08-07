@@ -4,23 +4,39 @@
     <link rel= "stylesheet" href="style.css">
     </head>
     <body style="height:100vh">
-        <div class ="filaunboton ">
-            <div class="botonarriba">
-                arriba
+        <div class="filaunboton ">
+            <div class="botonarriba" onclick="apretarboton('arriba')">
+            
             </div>
         </div>
-        <div class ="filadosbotones ">
-            <div class="botonizquierda">
-                izquierda
+        <div class="filadosbotones ">
+            <div class="botonizquierdo" onclick="apretarboton('izquierdo')">
+                
             </div>
-            <div class="botonderecha">
-                derecha
+            <div id="nombreJugadorUno" style="background-color: aqua; height: 100%; width: 16.5%;"> 
+
+            </div>
+            <div id="nombreJugadorDos" style="background-color: cadetblue; height: 100%; width: 16.5%; display: flex; align-items: center;justify-content: center;">
+            </div>
+
+            
+            <div class="botonderecha" onclick="apretarboton('derecha')">
+                
             </div>
         </div>
         <div class="filaunboton">
-            <div class="botonabajo">   
-                abajo      
+            <div class="botonabajo" onclick="apretarboton('abajo')">   
+                  
             </div>
         </div>
     </body>
 </html>
+<script>
+    function apretarboton(boton){
+        alert("apreto boton" + boton)
+    }
+    var nombredeJugadorUno = prompt("ingresenumerodejugador/anumerouno","nombre de jugador")
+    var nombredeJugadorDos = prompt("ingresenumerodejugador/anumerodos","nombre de jugador")
+    document.getElementById("nombreJugadorUno").innerHTML = nombredeJugadorUno
+    document.getElementById("nombreJugadorDos").innerHTML = nombredeJugadorDos
+</script>
